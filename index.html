@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <
     <title>AI Interface</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
 </head>
 <body>
     <div class="phone">
+        
         <div class="StatusBar">
             <div class="time-weather">
                 <div class="time" id="time">--:--</div>
@@ -16,20 +19,46 @@
                 </div>
             </div>
         </div>
-
         
-        <div class="flight-info">
-            <h2>San Francisco to New York</h2>
-            <p>9:25 PM - 4:30 AM</p>
-            <p>Terminal A, Gate A15</p>
-        </div>
-        <div class="map"></div>
-        <a href="#" class="book-ride">Book a ride • 25 min</a>
-        <div class="footer">
+        <div class="springboard">
+
+            <div class="flight-info">
+                <h2>San Francisco to New York</h2>
+                <p>9:25 PM - 4:30 AM</p>
+                <p>Terminal A, Gate A15</p>
+            </div>
+            <div class="map" id="map"></div>
+            <a href="#" class="book-ride">Book a ride • 25 min</a>
+
+
+            
+    <div class="footer">
             <p>How can I help?</p>
         </div>
-   
-    </div> <!-- Fin div-Phone -->
+        <div class="icons">
+            <div class="icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.14-.22c1.12.45 2.33.7 3.57.7.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.42 21 3 13.58 3 4c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.24.25 2.45.7 3.57.14.39.05.83-.22 1.14l-2.2 2.2z"></path>
+                </svg>
+            </div>
+            <div class="icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M20 2H4c-1.11 0-1.99.89-1.99 2L2 20c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V4c0-1.11-.89-2-2-2zm-1 16H5v-1.5l2.75-3.25 1.96 2.36L13.75 11l4.25 5.5V18zm0-9H5V5h14v4z"></path>
+                </svg>
+            </div>
+            <div class="icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M12 2a10 10 0 00-4 19.18c.63.11.86-.27.86-.6 0-.3-.01-1.1-.01-2.15-3.34.72-4.04-1.61-4.04-1.61-.58-1.46-1.42-1.85-1.42-1.85-1.16-.8.09-.78.09-.78 1.28.09 1.95 1.33 1.95 1.33 1.14 1.95 2.99 1.39 3.73 1.06.11-.83.44-1.39.8-1.71-2.66-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.48 11.48 0 013-.4c1.02 0 2.05.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.67 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.6-2.82 5.62-5.5 5.92.46.4.86 1.18.86 2.38 0 1.72-.01 3.11-.01 3.54 0 .33.23.72.87.6A10 10 0 0012 2z"></path>
+                </svg>
+            </div>
+            <div class="icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M12 16.5c2.69 0 5.2-1.26 6.84-3.26l1.66 1.26C19.1 17.3 15.74 19 12 19s-7.1-1.7-8.5-4.5l1.66-1.26c1.63 2 4.14 3.26 6.84 3.26zm-9-4.5c0 5 4 9 9 9s9-4 9-9-4-9-9-9-9 4-9 9zm11.5 1.5H13v-3h2V9h-3v6h3v-1.5z"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+
     
     <!-- Inclusion du script JavaScript -->
     <script src="script.js"></script>
