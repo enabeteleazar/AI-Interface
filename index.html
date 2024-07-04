@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interface AI</title>
+    <title>AI Interface</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="phone">
-        <div class="time-weather">
-            <div class="time">19:30</div>
-            <div class="weather">
-                <div class="weather-icon"></div>
-                <div>26°C</div>
+        <div class="StatusBar">
+            <div class="time-weather">
+                <div class="time" id="time">--:--</div>
+                <div class="weather">
+                    <div>26°C</div>
+                </div>
             </div>
         </div>
+
+        
         <div class="flight-info">
             <h2>San Francisco to New York</h2>
             <p>9:25 PM - 4:30 AM</p>
@@ -25,12 +28,11 @@
         <div class="footer">
             <p>How can I help?</p>
         </div>
-        <div class="icons">
-            <div class="icon">📞</div>
-            <div class="icon">✉️</div>
-            <div class="icon">📷</div>
-            <div class="icon">•••</div>
-        </div>
-    </div>
+   
+    </div> <!-- Fin div-Phone -->
+    
+    <!-- Inclusion du script JavaScript -->
+    <script src="script.js"></script>
+    <script src="time.js"></script>
 </body>
 </html>
