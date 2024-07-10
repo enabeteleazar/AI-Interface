@@ -1,4 +1,6 @@
-# AI-Interface
+#PROJET:
+
+AI-Interface
 
 L’AI Interface est un projet qui vise à créer une interface minimaliste pour un système d’intelligence artificielle (IA). 
 Cette interface permet aux utilisateurs d’interagir avec l’IA de manière conviviale et efficace. 
